@@ -1,0 +1,130 @@
+.show {
+  flex: 4;
+  padding: 20px;
+}
+
+.showTitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.showAddButton {
+  width: 80px;
+  border: none;
+  padding: 5px;
+  background-color: teal;
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.showTop {
+  display: flex;
+}
+
+.showTopLeft,
+.showTopRight {
+  flex: 1;
+}
+
+.showTopRight {
+  padding: 20px;
+  margin: 20px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.showInfoImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.showInfoTop {
+  display: flex;
+  align-items: center;
+}
+
+.showName {
+  font-weight: 600;
+}
+
+.showInfoBottom {
+  margin-top: 10px;
+}
+
+.showInfoItem {
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.showInfoValue {
+  font-weight: 300;
+}
+
+.showBottom {
+  padding: 20px;
+  margin: 20px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.showForm {
+  display: flex;
+  justify-content: space-between;
+}
+
+.showFormLeft {
+  display: flex;
+  flex-direction: column;
+}
+
+.showFormLeft > label {
+  margin-bottom: 10px;
+  color: gray;
+}
+
+.showFormLeft > input {
+  margin-bottom: 10px;
+  border: none;
+  padding: 5px;
+  border-bottom: 1px solid gray;
+}
+
+.showFormLeft >select{
+  margin-bottom: 10px;
+}
+
+.showUploadImg{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.showFormRight{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.showUpload{
+  display: flex;
+  align-items: center;
+}
+
+.showButton{
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: darkblue;
+  color:white;
+  font-weight: 600;
+  cursor: pointer;
+}
