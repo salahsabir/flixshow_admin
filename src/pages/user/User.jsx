@@ -1,9 +1,7 @@
 import {
   CalendarToday,
-  LocationSearching,
   MailOutline,
   PermIdentity,
-  PhoneAndroid,
   Publish,
   Accessibility,
 } from "@material-ui/icons";
@@ -30,7 +28,7 @@ export default function User() {
   //console.log(d.toUTCString())
 
   //radio form input
-  const [userStatis, setUserStatis] = useState("Male");
+  const [ setUserStatis] = useState("Male");
 
   function onChangeValue(event) {
     setUserStatis(event.target.value);

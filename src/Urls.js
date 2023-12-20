@@ -1,1 +1,1 @@
-export const Url = "http://localhost:4400";
+export const Url = "https://flixshow-server.onrender.com";//"http://localhost:4400";
